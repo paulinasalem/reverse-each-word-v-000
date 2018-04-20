@@ -10,7 +10,7 @@ end
 def reverse_each_word(string)
   new_string=string.split
   new_string.collect do |reverse_it|
-   newest_string=reverse_it.reverse
+   reverse_it.reverse
   end
 newest_string.join(' ')
 end
