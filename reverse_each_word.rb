@@ -4,5 +4,5 @@ def reverse_each_word(string)
   new_string.each do |reverse_it|
     my_reverse<< reverse_it.reverse
   end
-my_reverse.join
+my_reverse.map
 end
