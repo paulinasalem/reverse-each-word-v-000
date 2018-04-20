@@ -4,7 +4,6 @@ def reverse_each_word(string)
   new_string.each do |reverse_it|
     newest_string=reverse_it.reverse
     my_reverse<< reverse_it
-    my_reverse.join
   end
 
 end
